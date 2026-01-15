@@ -131,7 +131,15 @@ Automatic statistics based on the papers listed in this repository.
 ---
 
 ## 📈 Star History
-[![Star History Chart](assets/avatar.jpg)](https://star-history.com/#YangQiWei3/Awesome-Aerial-Ground-Object-Re-Identification&Date)
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+    srcset="https://api.star-history.com/svg?repos=YangQiWei3/Awesome-Aerial-Ground-Object-Re-Identification&type=Date&theme=dark" />
+  <source media="(prefers-color-scheme: light)"
+    srcset="https://api.star-history.com/svg?repos=YangQiWei3/Awesome-Aerial-Ground-Object-Re-Identification&type=Date" />
+  <img alt="Star History Chart"
+    src="https://api.star-history.com/svg?repos=YangQiWei3/Awesome-Aerial-Ground-Object-Re-Identification&type=Date" />
+</picture>
+
 
 ---
 
