@@ -59,6 +59,7 @@ Automatic statistics based on the papers listed in this repository.
 
 | Conference / Journal | Method | Title | Resources |
 |:---|:---|:---|:---|
+| **CVPR 2026** | GLPSG | Cross-modal Fuzzy Alignment Network for Text-Aerial Person Retrieval and A Large-scale Benchmark | [Paper](https://arxiv.org/abs/2603.20721) |
 | **PRCV 2026** | GLPSG | Global-local prompts-driven semantic guidance for aerial-ground person re-identification | [Paper](https://link.springer.com/chapter/10.1007/978-981-95-5755-4_7) |
 | **AAAI 2026** | TAG-CLIP | Text-based Aerial-Ground Object Retrieval | [Paper](https://arxiv.org/pdf/2511.08369) · [Code](https://github.com/Flame-Chasers/TAG-PR)|
 | **AAAI 2026** | — | Semantic-Driven Progressive Refinement for Aerial Ground Person ReID: A Challenging Large-Scale Benchmark | Coming Soon |
