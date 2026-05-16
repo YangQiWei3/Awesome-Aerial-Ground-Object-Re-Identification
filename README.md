@@ -59,13 +59,14 @@ Automatic statistics based on the papers listed in this repository.
 
 | Conference / Journal | Method | Title | Resources |
 |:---|:---|:---|:---|
+| **ArXiv 2026** | 3D-LENS | 3D-LENS: A 3D Lifting-based Elevated Novel-view Synthesis method for Single-View  Aerial-Ground Re-Identification | [Paper](https://arxiv.org/abs/2604.26520) · [Code](https://github.com/TurtleSmoke/3D-LENS) |
 | **CVPR 2026** | CFAN | Cross-modal Fuzzy Alignment Network for Text-Aerial Person Retrieval and A Large-scale Benchmark | [Paper](https://arxiv.org/abs/2603.20721) |
 | **PRCV 2026** | GLPSG | Global-local prompts-driven semantic guidance for aerial-ground person re-identification | [Paper](https://link.springer.com/chapter/10.1007/978-981-95-5755-4_7) |
 | **AAAI 2026** | TAG-CLIP | Text-based Aerial-Ground Object Retrieval | [Paper](https://arxiv.org/pdf/2511.08369) · [Code](https://github.com/Flame-Chasers/TAG-PR)|
-| **AAAI 2026** | — | Semantic-Driven Progressive Refinement for Aerial Ground Person ReID: A Challenging Large-Scale Benchmark | Coming Soon |
+| **AAAI 2026** | SVPR-ReID | Semantic-Driven Visual Progressive Refinement for Aerial-Ground Person ReID:  A Challenging Large-Scale Benchmark | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/38339) |
 | **NeurIPS 2025** | GSAlign | Geometric and Semantic Alignment Network for Aerial-Ground Person Re-Identification | [Paper](https://openreview.net/attachment?id=bxELEjg3VE&name=pdf) · [Code](https://github.com/stone96123/GSAlign?tab=readme-ov-file) |
 | **ICCV 2025** | VIF | Bridging the Sky and Ground: Towards View-Invariant Feature Learning for Aerial-Ground Person Re-Identification | [Paper](https://openaccess.thecvf.com/content/ICCV2025/html/Khalid_Bridging_the_Sky_and_Ground_Towards_View-Invariant_Feature_Learning_for_ICCV_2025_paper.html) |
-| **ArXiv 2025** | SD-ReID | View-aware Stable Diffusion for Aerial-Ground Person Re-Identification | [Paper](https://arxiv.org/abs/2504.09549) |
+| **TIP 2026** | SD-ReID | View-aware Stable Diffusion for Aerial-Ground Person Re-Identification | [Paper](https://arxiv.org/abs/2504.09549) · [Code](https://github.com/924973292/SD-ReID) |
 | **ArXiv 2025** | LATex | Leveraging Attribute-based Text Knowledge for Aerial-Ground Person Re-Identification | [Paper](https://arxiv.org/abs/2503.23722) |
 | **ICME 2025** | DTST | Dynamic Token Selective Transformer for  Aerial-Ground Person Re-Identification | [Paper](https://yuhaiw.github.io/DTS-AGPReID/ICMEYuhai.pdf) · [Code](https://github.com/YuhaiW/reidselecttoken) |
 | **CVPR 2025** | SeCap | Self-Calibrating and Adaptive Prompts for Cross-view Person Re-Identification in Aerial-Ground Networks | [Paper](https://arxiv.org/abs/2503.06965) · [Code](https://github.com/wangshining681/SeCap-AGPReID) |
@@ -113,14 +114,16 @@ Automatic statistics based on the papers listed in this repository.
 
 ## 💾 Datasets
 
-| Dataset | Source | Download | Access Code |
+| Dataset | Source | Download | Category |
 | :--- | :--- | :--- | :--- |
-| **AG-ReID** | ICME 2023 | [Link](https://drive.google.com/file/d/1hzieEPlXfjkN3V3XWqI5rAwpF_sCF1K9/view) | - |
-| **AG-ReID.v2** | TITS 2024 | [Link](https://drive.google.com/drive/folders/16r7G_CuUqfWG6_UCT7goIGRMqJird6vK) | - |
-| **CARGO** | CVPR 2024 | [Link](https://drive.google.com/file/d/1yDjyH0VtW7efxP3vgQjIqTx2oafCB67t/view) | - |
-| **LAGPeR / G2APS-ReID** | CVPR 2025 | [Link](https://pan.baidu.com/share/init?surl=MRrhqoQzwxw7qOx4Lqdl2g) | - |
-| **AG-VPReID** | CVPR 2025 | [Link](https://drive.google.com/drive/folders/1wtdhKzK9Fbj7xkGAM84KNJ1uYCxSMHdj) | - |
-| **DetReIDX** | TBIOM 2025 | [Link](https://github.com/kailashhambarde/DetReIDX/tree/main) | - |
+| **AG-ReID** | ICME 2023 | [Link](https://drive.google.com/file/d/1hzieEPlXfjkN3V3XWqI5rAwpF_sCF1K9/view) | Image.Person |
+| **AG-ReID.v2** | TITS 2024 | [Link](https://drive.google.com/drive/folders/16r7G_CuUqfWG6_UCT7goIGRMqJird6vK) | Image.Person |
+| **CARGO** | CVPR 2024 | [Link](https://drive.google.com/file/d/1yDjyH0VtW7efxP3vgQjIqTx2oafCB67t/view) | Image.Person |
+| **LAGPeR / G2APS-ReID** | CVPR 2025 | [Link](https://pan.baidu.com/share/init?surl=MRrhqoQzwxw7qOx4Lqdl2g) | Image.Person |
+| **CP2108** | AAAI 2026 | [Link](https://github.com/ahu-xhao/SVPR-ReID) | Image.Person |
+| **MOO** | ArXiv 2026 | [Link](https://github.com/TurtleSmoke/MOO) | Image.Animal |
+| **AG-VPReID** | CVPR 2025 | [Link](https://drive.google.com/drive/folders/1wtdhKzK9Fbj7xkGAM84KNJ1uYCxSMHdj) | Video.Person |
+| **DetReIDX** | TBIOM 2025 | [Link](https://github.com/kailashhambarde/DetReIDX/tree/main) | Video.Person |
 
 ---
 
