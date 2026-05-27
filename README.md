@@ -60,6 +60,7 @@ Automatic statistics based on the papers listed in this repository.
 | Conference / Journal | Method | Title | Resources |
 |:---|:---|:---|:---|
 | **ArXiv 2026** | 3D-LENS | 3D-LENS: A 3D Lifting-based Elevated Novel-view Synthesis method for Single-View  Aerial-Ground Re-Identification | [Paper](https://arxiv.org/abs/2604.26520) · [Code](https://github.com/TurtleSmoke/3D-LENS) |
+| **CVPR 2026** | ViSA | View-Aware Semantic Alignment for Aerial-Ground Person Re-Identification | [Paper](https://arxiv.org/abs/2605.18192) |
 | **CVPR 2026** | CFAN | Cross-modal Fuzzy Alignment Network for Text-Aerial Person Retrieval and A Large-scale Benchmark | [Paper](https://arxiv.org/abs/2603.20721) |
 | **PRCV 2026** | GLPSG | Global-local prompts-driven semantic guidance for aerial-ground person re-identification | [Paper](https://link.springer.com/chapter/10.1007/978-981-95-5755-4_7) |
 | **AAAI 2026** | TAG-CLIP | Text-based Aerial-Ground Object Retrieval | [Paper](https://arxiv.org/pdf/2511.08369) · [Code](https://github.com/Flame-Chasers/TAG-PR)|
