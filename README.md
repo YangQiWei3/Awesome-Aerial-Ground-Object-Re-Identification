@@ -7,12 +7,18 @@
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License MIT"></a>
 </p>
 
+<p align="center">
+  English | <a href="README.zh-CN.md">简体中文</a>
+</p>
+
+<p align="center">
+  <a href="leaderboards/ag_reid_leaderboards.pdf">🏆  Leaderboards</a>
+</p>
+
 A curated list of **Aerial-Ground Object Re-Identification (AG-ReID)** papers, datasets, codebases and challenges.  
 AG-ReID aims to match Object across **aerial views** and **ground views**, facing major challenges such as extreme viewpoint discrepancy, scale/resolution variation, illumination changes and background clutter.
 
 > 📩 Feel free to open an issue / PR to add papers, code or datasets.
-
----
 
 ## 📖 Table of Contents
 - [🌟 Spotlight: Our Contributions](#-spotlight-our-contributions)
@@ -59,6 +65,7 @@ Automatic statistics based on the papers listed in this repository.
 
 | Conference / Journal | Method | Title | Resources |
 |:---|:---|:---|:---|
+| **ArXiv 2026** | GeoReID | Rectifying Geometry-Induced Similarity Distortions for Real-World Aerial-Ground Person Re-Identification | [Paper](https://arxiv.org/abs/2601.21405) · [Code](https://github.com/kailashhambarde/GeoReID.git) |
 | **ArXiv 2026** | 3D-LENS | 3D-LENS: A 3D Lifting-based Elevated Novel-view Synthesis method for Single-View  Aerial-Ground Re-Identification | [Paper](https://arxiv.org/abs/2604.26520) · [Code](https://github.com/TurtleSmoke/3D-LENS) |
 | **CVPR 2026** | ViSA | View-Aware Semantic Alignment for Aerial-Ground Person Re-Identification | [Paper](https://arxiv.org/abs/2605.18192) |
 | **CVPR 2026** | CFAN | Cross-modal Fuzzy Alignment Network for Text-Aerial Person Retrieval and A Large-scale Benchmark | [Paper](https://arxiv.org/abs/2603.20721) |
@@ -73,9 +80,10 @@ Automatic statistics based on the papers listed in this repository.
 | **CVPR 2025** | SeCap | Self-Calibrating and Adaptive Prompts for Cross-view Person Re-Identification in Aerial-Ground Networks | [Paper](https://arxiv.org/abs/2503.06965) · [Code](https://github.com/wangshining681/SeCap-AGPReID) |
 | **TOMM 2025** | CVAF | A CLIP-Based View-Consistent Alignment Framework for Aerial-Ground Person Re-Identification | [Paper](https://dl.acm.org/doi/pdf/10.1145/3785482) |
 | **ICIG 2025** | PDPA | Perspective Driven Prototype Alignment for Aerial-Ground Person Re-identification | [Paper](https://link.springer.com/chapter/10.1007/978-981-95-3393-0_42) |
+| **Drones 2025** | UAGRPG | Unsupervised Aerial-Ground Re-Identification from Pedestrian to Group for UAV-Based Surveillance | [Paper](https://www.mdpi.com/2504-446X/9/4/244) |
 | **自动化学报 2025** | — | Implicit Decoder Alignment for Aerial-ground Person Re-identification | [Paper](https://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c240705) |
 | **CVPR 2024** | VDT | View-decoupled Transformer for Person Re-identification under Aerial-ground Camera Network | [Paper](https://arxiv.org/abs/2403.14513) · [Code](https://github.com/LinlyAC/VDT-AGPReID?tab=readme-ov-file) |
-| **TITS 2024** | AG-ReID.v2 | Bridging Aerial and Ground Views for Person Re-identification | [Paper](https://arxiv.org/abs/2401.02634) · [Code](https://github.com/huynguyen792/AG-ReID.v2) |
+| **TITS 2024** | V2E | Bridging Aerial and Ground Views for Person Re-identification | [Paper](https://arxiv.org/abs/2401.02634) · [Code](https://github.com/huynguyen792/AG-ReID.v2) |
 | **ICME 2023** | Explain | Aerial-Ground Person Re-ID | [Paper](https://arxiv.org/abs/2303.08597) |
 | **ATR 2017** | — | Person Re-Identification Across Aerial and Ground-Based Cameras by Deep Feature Fusion | [Paper](https://publica.fraunhofer.de/bitstreams/ef904224-f31f-484d-b8d2-56695e46779c/download) |
 
@@ -218,3 +226,4 @@ If you find our work or this repository useful in your research, please consider
   year         = {2026},
   note         = {A curated list of papers, datasets, and resources for AGPReID.}
 }
+```
