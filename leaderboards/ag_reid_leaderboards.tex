@@ -10,6 +10,7 @@
 \usepackage{multirow}
 \usepackage{float}
 \usepackage[hidelinks]{hyperref}
+\usepackage{orcidlink}
 
 \renewcommand{\arraystretch}{1.08}
 
@@ -25,11 +26,10 @@
 
 \title{Aerial-Ground Person Re-Identification Leaderboards}
 \titlerunning{Aerial-Ground Re-ID Leaderboards}
-\author{Awesome Aerial-Ground Object Re-Identification}
-\authorrunning{Awesome Aerial-Ground Re-ID}
-\institute{}
-
-\newcommand{\placeholdernote}{This placeholder row is not a reported result. Replace it with measured or reported methods before using the table in a paper.}
+\author{Qiwei Yang\orcidlink{0009-0007-3730-0903}}
+\authorrunning{Q.~Yang}
+\institute{Dalian University of Technology, Dalian, China\\
+  \email{dutyqw@mail.dlut.edu.cn}}
 
 \begin{document}
 \pagestyle{empty}
@@ -38,12 +38,20 @@
 
 \begin{abstract}
   \sloppy
-  This document provides compact leaderboard tables for benchmark results.
-  Placeholder rows are provided only as a formatting template and should be
-  replaced with verified results from public papers or official repositories
-  before use in a manuscript.
-  \keywords{Aerial-ground person re-identification \and Leaderboards \and Benchmarks}
+  This document presents leaderboard tables summarizing reported experimental results on five Aerial-Ground Re-IDentification (AG-ReID) benchmarks.
+  All results are collected from \textbf{formally published papers}.
+  Therefore, Results reported only in arXiv preprints are therefore not included.
+  \keywords{Aerial-ground person re-identification \and Leaderboards}
 \end{abstract}
+
+\subsection*{Overview}
+\sloppy
+The leaderboard tables are designed to provide a \textbf{concise, visually clear and publication-ready} comparison format.
+\textbf{Each table reserves the final row for users to insert their own experimental results}, and the best result under each evaluation metric is highlighted in \textbf{bold}.
+For readability, the reported methods in each table are divided into three groups: representative CNN-based methods, representative ViT-based methods, and methods specifically designed for AG-ReID.
+\subsection*{Usage}
+The file \texttt{ag\_reid\_leaderboards.tex} in the current directory is the \LaTeX{} source of \texttt{ag\_reid\_leaderboards.pdf}. 
+Users may directly copy the corresponding tables from this source file for use in their own manuscripts.
 
 
 
