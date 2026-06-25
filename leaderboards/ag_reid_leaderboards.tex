@@ -50,7 +50,7 @@ The leaderboard tables are designed to provide a \textbf{concise, visually clear
 \textbf{Each table reserves the final row for users to insert their own experimental results}, and the best result under each evaluation metric is highlighted in \textbf{bold}.
 For readability, the reported methods in each table are divided into three groups: representative CNN-based methods, representative ViT-based methods, and methods specifically designed for AG-ReID.
 \subsection*{Usage}
-The file \texttt{ag\_reid\_leaderboards.tex} in the current directory is the \LaTeX{} source of \texttt{ag\_reid\_leaderboards.pdf}. 
+The file \texttt{ag\_reid\_leaderboards.tex} in the current directory is the \LaTeX{} source of \texttt{ag\_reid\_leaderboards.pdf}.
 Users may directly copy the corresponding tables from this source file for use in their own manuscripts.
 
 
@@ -64,35 +64,36 @@ Users may directly copy the corresponding tables from this source file for use i
   \begin{tabular}{lcccc}
     \Xhline{1.0pt}
     \multirow{2}{*}{Method}
-                                     & \multicolumn{2}{c}{A$\rightarrow$G}
-                                     & \multicolumn{2}{c}{G$\rightarrow$A}                                                                             \\
+                                       & \multicolumn{2}{c}{A$\rightarrow$G}
+                                       & \multicolumn{2}{c}{G$\rightarrow$A}                                                                             \\
     \cmidrule(lr){2-3}\cmidrule(lr){4-5}
-                                     & \multicolumn{1}{c}{mAP}             & \multicolumn{1}{c}{R1} & \multicolumn{1}{c}{mAP} & \multicolumn{1}{c}{R1} \\
+                                       & \multicolumn{1}{c}{mAP}             & \multicolumn{1}{c}{R1} & \multicolumn{1}{c}{mAP} & \multicolumn{1}{c}{R1} \\
     \Xhline{0.6pt}
-    BoT~\cite{luo2019bag}            & 55.47                               & 70.01                  & 58.83                   & 71.20                  \\
-    OsNet~\cite{zhou2021learning}    & 58.32                               & 72.59                  & 60.99                   & 74.22                  \\
-    SBS~\cite{he2023fastreid}        & 59.77                               & 73.54                  & 62.27                   & 73.70                  \\
-    VV~\cite{kumar2020strong}        & 67.23                               & 77.22                  & 69.83                   & 79.73                  \\
+    BoT~\cite{luo2019bag}              & 55.47                               & 70.01                  & 58.83                   & 71.20                  \\
+    OsNet~\cite{zhou2021learning}      & 58.32                               & 72.59                  & 60.99                   & 74.22                  \\
+    SBS~\cite{he2023fastreid}          & 59.77                               & 73.54                  & 62.27                   & 73.70                  \\
+    VV~\cite{kumar2020strong}          & 67.23                               & 77.22                  & 69.83                   & 79.73                  \\
     \Xhline{0.6pt}
-    ViT~\cite{dosovitskiy2020image}  & 72.61                               & 81.47                  & 73.39                   & 82.85                  \\
-    TransReID~\cite{he2021transreid} & 73.23                               & 81.33                  & 75.71                   & 84.10                  \\
-    CLIP-ReID~\cite{li2023clip}      & 75.68                               & 82.59                  & 78.51                   & 85.68                  \\
+    ViT~\cite{dosovitskiy2020image}    & 72.61                               & 81.47                  & 73.39                   & 82.85                  \\
+    TransReID~\cite{he2021transreid}   & 73.23                               & 81.33                  & 75.71                   & 84.10                  \\
+    CLIP-ReID~\cite{li2023clip}        & 75.68                               & 82.59                  & 78.51                   & 85.68                  \\
     \Xhline{0.6pt}
-    Explain~\cite{nguyen2023aerial}  & 72.38                               & 81.28                  & 73.35                   & 82.64                  \\
-    VDT~\cite{zhang2024view}         & 74.44                               & 82.91                  & 78.57                   & 86.59                  \\
-    DTST~\cite{wang2024dynamic}      & 74.51                               & 83.48                  & 76.05                   & 84.10                  \\
-    GSAlign~\cite{li2025gsalign}     & 75.01                               & 83.75                  & 77.73                   & 84.10                  \\
-    VIF~\cite{khalid2025bridging}    & 75.22                               & 83.75                  & 79.19                   & 87.32                  \\
-    SD-ReID~\cite{wang2025sd}        & 75.40                               & 85.16                  & 77.02                   & 85.57                  \\
-    SAS-VPReID~\cite{yang2026sas}    & 75.98                               & 84.24                  & 77.28                   & 86.17                  \\
-    SeCap~\cite{wang2025secap}       & 76.16                               & 84.03                  & 78.34                   & 87.01                  \\
-    LATex~\cite{zhang2025latex}      & 77.67                               & 85.26                  & 81.15                   & 89.40                  \\
-    H$^2$RL                          & 79.21                               & 86.06                  & 81.28                   & 87.94                  \\
-    CVAF~\cite{mao2026cvaf}          & 79.45                               & 87.23                  & 82.59                   & 90.12                  \\
-    GLPSG~\cite{zhu2025global}       & \textbf{81.50}                      & \textbf{87.70}         & \textbf{84.30}          & \textbf{90.60}         \\
+    Explain~\cite{nguyen2023aerial}    & 72.38                               & 81.28                  & 73.35                   & 82.64                  \\
+    VDT~\cite{zhang2024view}           & 74.44                               & 82.91                  & 78.57                   & 86.59                  \\
+    DTST~\cite{wang2024dynamic}        & 74.51                               & 83.48                  & 76.05                   & 84.10                  \\
+    GSAlign~\cite{li2025gsalign}       & 75.01                               & 83.75                  & 77.73                   & 84.10                  \\
+    VIF~\cite{khalid2025bridging}      & 75.22                               & 83.75                  & 79.19                   & 87.32                  \\
+    SD-ReID~\cite{wang2025sd}          & 75.40                               & 85.16                  & 77.02                   & 85.57                  \\
+    SAS-VPReID~\cite{yang2026sas}      & 75.98                               & 84.24                  & 77.28                   & 86.17                  \\
+    SeCap~\cite{wang2025secap}         & 76.16                               & 84.03                  & 78.34                   & 87.01                  \\
+    LATex~\cite{zhang2025latex}        & 77.67                               & 85.26                  & 81.15                   & 89.40                  \\
+    SVPR-ReID~\cite{zheng2026semantic} & 77.85                               & 85.34                  & 80.55                   & 87.32                  \\
+    H$^2$RL                            & 79.21                               & 86.06                  & 81.28                   & 87.94                  \\
+    CVAF~\cite{mao2026cvaf}            & 79.45                               & 87.23                  & 82.59                   & 90.12                  \\
+    GLPSG~\cite{zhu2025global}         & \textbf{81.50}                      & \textbf{87.70}         & \textbf{84.30}          & \textbf{90.60}         \\
     \Xhline{0.6pt}
     \rowcolor{gray!15}
-    \textbf{Yours}                   & \textbf{}                           & \textbf{}              & \textbf{}               & \textbf{}              \\
+    \textbf{Yours}                     & \textbf{}                           & \textbf{}              & \textbf{}               & \textbf{}              \\
     \Xhline{1.0pt}
   \end{tabular}
 \end{table}
@@ -239,26 +240,26 @@ Users may directly copy the corresponding tables from this source file for use i
   \begin{tabular}{lcccccc}
     \toprule
     \multirow{2}{*}{Method}
-                                     & \multicolumn{2}{c}{ALL}
-                                     & \multicolumn{2}{c}{A$\rightarrow$G}
-                                     & \multicolumn{2}{c}{G$\rightarrow$A}                                                                                                                                \\
+                                       & \multicolumn{2}{c}{ALL}
+                                       & \multicolumn{2}{c}{A$\rightarrow$G}
+                                       & \multicolumn{2}{c}{G$\rightarrow$A}                                                                                                                                \\
     \cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
-                                     & \multicolumn{1}{c}{mAP}             & \multicolumn{1}{c}{R1} & \multicolumn{1}{c}{mAP} & \multicolumn{1}{c}{R1} & \multicolumn{1}{c}{mAP} & \multicolumn{1}{c}{R1} \\
+                                       & \multicolumn{1}{c}{mAP}             & \multicolumn{1}{c}{R1} & \multicolumn{1}{c}{mAP} & \multicolumn{1}{c}{R1} & \multicolumn{1}{c}{mAP} & \multicolumn{1}{c}{R1} \\
     \Xhline{0.6pt}
-    SBS~\cite{he2023fastreid}        & 17.29                               & 27.96                  & 23.05                   & 36.06                  & 23.83                   & 39.14                  \\
-    MGN~\cite{wang2018learning}      & 23.93                               & 32.45                  & 34.02                   & 52.27                  & 34.26                   & 52.58                  \\
-    BoT~\cite{luo2019bag}            & 28.35                               & 36.27                  & 38.60                   & 57.76                  & 37.72                   & 55.64                  \\
+    SBS~\cite{he2023fastreid}          & 17.29                               & 27.96                  & 23.05                   & 36.06                  & 23.83                   & 39.14                  \\
+    MGN~\cite{wang2018learning}        & 23.93                               & 32.45                  & 34.02                   & 52.27                  & 34.26                   & 52.58                  \\
+    BoT~\cite{luo2019bag}              & 28.35                               & 36.27                  & 38.60                   & 57.76                  & 37.72                   & 55.64                  \\
     \Xhline{0.6pt}
-    ViT~\cite{dosovitskiy2020image}  & 37.92                               & 49.36                  & 42.03                   & 61.14                  & 44.58                   & 61.97                  \\
-    TransReID~\cite{he2021transreid} & 38.18                               & 50.32                  & 45.62                   & 62.03                  & 45.00                   & 62.28                  \\
-    CLIP-ReID~\cite{li2023clip}      & 41.12                               & 57.90                  & 45.35                   & 62.16                  & 45.32                   & 62.97                  \\
+    ViT~\cite{dosovitskiy2020image}    & 37.92                               & 49.36                  & 42.03                   & 61.14                  & 44.58                   & 61.97                  \\
+    TransReID~\cite{he2021transreid}   & 38.18                               & 50.32                  & 45.62                   & 62.03                  & 45.00                   & 62.28                  \\
+    CLIP-ReID~\cite{li2023clip}        & 41.12                               & 57.90                  & 45.35                   & 62.16                  & 45.32                   & 62.97                  \\
     \Xhline{0.6pt}
-    VDT~\cite{zhang2024view}         & 33.10                               & 46.88                  & 33.64                   & 42.76                  & 31.74                   & 40.59                  \\
-    SeCap~\cite{wang2025secap}       & 38.74                               & 53.90                  & 46.95                   & 63.55                  & 46.19                   & 63.39                  \\
-    SAS-VPReID~\cite{yang2026sas}    & \textbf{42.40}                      & \textbf{59.23}         & \textbf{47.72}          & \textbf{64.25}         & \textbf{47.04}          & \textbf{63.76}         \\
+    VDT~\cite{zhang2024view}           & 33.10                               & 46.88                  & 33.64                   & 42.76                  & 31.74                   & 40.59                  \\
+    SeCap~\cite{wang2025secap}         & 38.74                               & 53.90                  & 46.95                   & 63.55                  & 46.19                   & 63.39                  \\
+    SVPR-ReID~\cite{zheng2026semantic} & \textbf{42.40}                      & \textbf{59.23}         & \textbf{47.72}          & \textbf{64.25}         & \textbf{47.04}          & \textbf{63.76}         \\
     \Xhline{0.6pt}
     \rowcolor{gray!15}
-    \textbf{Yours}                   & \textbf{}                           & \textbf{}              & \textbf{}               & \textbf{}              & \textbf{}               & \textbf{}              \\
+    \textbf{Yours}                     & \textbf{}                           & \textbf{}              & \textbf{}               & \textbf{}              & \textbf{}               & \textbf{}              \\
     \Xhline{1.0pt}
   \end{tabular}
 \end{table}
