@@ -1,0 +1,13 @@
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.bak*
+eccv.sty
+eccvabbrv.sty
+ECCV_TEMPLATE_LICENSE
