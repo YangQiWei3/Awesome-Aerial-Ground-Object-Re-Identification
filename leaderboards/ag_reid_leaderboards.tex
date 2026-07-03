@@ -88,7 +88,7 @@ Users may directly copy the corresponding tables from this source file for use i
     SeCap~\cite{wang2025secap}         & 76.16                               & 84.03                  & 78.34                   & 87.01                  \\
     LATex~\cite{zhang2025latex}        & 77.67                               & 85.26                  & 81.15                   & 89.40                  \\
     SVPR-ReID~\cite{zheng2026semantic} & 77.85                               & 85.34                  & 80.55                   & 87.32                  \\
-    H$^2$RL                            & 79.21                               & 86.06                  & 81.28                   & 87.94                  \\
+    HiHR~\cite{yang2026hierarchical}   & 79.21                               & 86.06                  & 81.28                   & 87.94                  \\
     CVAF~\cite{mao2026cvaf}            & 79.45                               & 87.23                  & 82.59                   & 90.12                  \\
     GLPSG~\cite{zhu2025global}         & \textbf{81.50}                      & \textbf{87.70}         & \textbf{84.30}          & \textbf{90.60}         \\
     \Xhline{0.6pt}
@@ -138,10 +138,10 @@ Users may directly copy the corresponding tables from this source file for use i
     V2E~\cite{nguyen2024ag}            & 80.72                               & 88.77                  & 78.51                   & 87.86                  & 84.85                   & 93.62                  & 80.11                   & 88.61                  \\
     SeCap~\cite{wang2025secap}         & 80.84                               & 88.12                  & 79.99                   & 88.24                  & 84.01                   & 91.44                  & 80.15                   & 87.56                  \\
     GSAlign~\cite{li2025gsalign}       & 81.38                               & 87.86                  & 81.05                   & 88.02                  & 83.98                   & 90.63                  & 80.90                   & 87.31                  \\
-    CVAF~\cite{mao2026cvaf}            & 83.35                               & 88.77                  & 83.17                   & 88.40                  & 87.81                   & 92.49                  & \textbf{85.08}          & \textbf{90.85}         \\
+    CVAF~\cite{mao2026cvaf}            & 83.35                               & 88.77                  & 83.17                   & 88.40                  & \textbf{87.81}          & 92.49                  & \textbf{85.08}          & \textbf{90.85}         \\
     LATex~\cite{zhang2025latex}        & 83.50                               & 89.13                  & 82.85                   & 89.01                  & 86.35                   & 91.35                  & 83.30                   & 89.32                  \\
-    ViSA~\cite{zhang2026view}          & 83.61                               & 89.43                  & 82.32                   & 88.57                  & 85.99                   & 91.63                  & 83.10                   & 89.23                  \\
-    H$^2$RL                            & \textbf{84.31}                      & \textbf{89.90}         & \textbf{83.55}          & 88.74                  & \textbf{88.03}          & 92.76                  & 84.42                   & 89.83                  \\
+    ViSA~\cite{zhang2026view}          & 83.61                               & \textbf{89.43}         & 82.32                   & 88.57                  & 85.99                   & 91.63                  & 83.10                   & 89.23                  \\
+    HiHR~\cite{yang2026hierarchical}   & \textbf{84.04}                      & 88.84                  & \textbf{83.21}          & 88.57                  & 87.57                   & 91.40                  & 84.02                   & 89.5                   \\
     \Xhline{0.6pt}
     \rowcolor{gray!15}
     \textbf{Yours}                     & \textbf{}                           & \textbf{}              & \textbf{}               & \textbf{}              & \textbf{}               &                        & \textbf{}               & \textbf{}              \\
@@ -188,7 +188,7 @@ Users may directly copy the corresponding tables from this source file for use i
     SAS-VPReID~\cite{yang2026sas}      & 58.48                               & 64.42                  & 57.36                   & 58.51                  & 63.41                   & 70.00                  & 76.90                   & 83.93                  \\
     ViSA~\cite{zhang2026view}          & 65.46                               & 70.51                  & 69.00                   & 71.28                  & 67.78                   & \textbf{82.50}         & \textbf{83.90}          & 88.39                  \\
     LATex~\cite{zhang2025latex}        & 67.09                               & \textbf{76.96}         & 58.88                   & 66.87                  & 69.06                   & 80.00                  & 79.90                   & \textbf{90.18}         \\
-    H$^2$RL                            & \textbf{67.65}                      & 74.68                  & \textbf{69.77}          & \textbf{75.50}         & \textbf{69.60}          & 75.00                  & 82.07                   & 88.39                  \\
+    HiHR~\cite{yang2026hierarchical}   & \textbf{67.52}                      & 74.36                  & \textbf{70.53}          & \textbf{75.53}         & \textbf{69.60}          & 75.00                  & 80.93                   & 87.50                  \\
     \Xhline{0.6pt}
     \rowcolor{gray!15}
     \textbf{Yours}                     & \textbf{}                           & \textbf{}              & \textbf{}               & \textbf{}              & \textbf{}               & \textbf{}              & \textbf{}               & \textbf{}              \\
@@ -223,7 +223,7 @@ Users may directly copy the corresponding tables from this source file for use i
     SeCap~\cite{wang2025secap}       & 30.37                                & 41.79                  & 33.42                   & 35.26                  & 19.24                   & 24.39                  \\
     ViSA~\cite{zhang2026view}        & 30.42                                & 41.37                  & 33.59                   & 35.06                  & 20.31                   & 25.61                  \\
     SAS-VPReID~\cite{yang2026sas}    & 30.76                                & 43.83                  & 33.40                   & 35.42                  & 23.02                   & 31.12                  \\
-    H$^2$RL                          & \textbf{33.36}                       & \textbf{44.68}         & \textbf{37.10}          & \textbf{39.86}         & \textbf{26.72}          & \textbf{34.57}         \\
+    HiHR~\cite{yang2026hierarchical} & \textbf{33.80}                       & \textbf{46.95}         & \textbf{36.74}          & \textbf{39.30}         & \textbf{23.99}          & \textbf{31.39}         \\
     \Xhline{0.6pt}
     \rowcolor{gray!15}
     \textbf{Yours}                   & \textbf{}                            & \textbf{}              & \textbf{}               & \textbf{}              & \textbf{}               & \textbf{}              \\
