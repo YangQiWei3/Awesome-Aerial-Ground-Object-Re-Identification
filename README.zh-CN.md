@@ -44,7 +44,7 @@ AG-ReID 旨在跨 **空中视角** 与 **地面视角** 匹配同一目标，主
 
 以下是我们课题组在 **跨视角对齐** 和 **鲁棒表征学习** 方向的代表性工作：
 
-- **[ECCV 2026]** Hierarchical Hyperbolic Representation for Aerial-Ground Person Re-Identification  [论文] · [代码](https://github.com/YangQiWei3/HiHR)
+- **[ECCV 2026]** Hierarchical Hyperbolic Representation for Aerial-Ground Person Re-Identification  [论文](https://arxiv.org/abs/2607.09186) · [代码](https://github.com/YangQiWei3/HiHR)
 
 - **[WACVW 2026]** SAS-VPReID: A Scale-Adaptive Framework with Shape Priors for Video-based Object Re-Identification at Extreme Far Distances  [论文](https://arxiv.org/pdf/2601.05535) · [代码](https://github.com/YangQiWei3/SAS-VPReID)
 
@@ -69,7 +69,7 @@ AG-ReID 旨在跨 **空中视角** 与 **地面视角** 匹配同一目标，主
 
 | 会议 / 期刊         | 方法      | 标题                                                                                                              | 资源                                                                                                                                                            |
 | :------------------ | :-------- | :---------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **ECCV 2026**       | HiHR      | Hierarchical Hyperbolic Representation for Aerial-Ground Person Re-Identification                                 | [论文] · [代码](https://github.com/YangQiWei3/HiHR)                                                                                                             |
+| **ECCV 2026**       | HiHR      | Hierarchical Hyperbolic Representation for Aerial-Ground Person Re-Identification                                 | [论文](https://arxiv.org/abs/2607.09186) · [代码](https://github.com/YangQiWei3/HiHR)                                                                                                             |
 | **ArXiv 2026**      | GeoReID   | Rectifying Geometry-Induced Similarity Distortions for Real-World Aerial-Ground Person Re-Identification          | [论文](https://arxiv.org/abs/2601.21405) · [代码](https://github.com/kailashhambarde/GeoReID.git)                                                               |
 | **ECCV 2026**       | 3D-LENS   | 3D-LENS: A 3D Lifting-based Elevated Novel-view Synthesis method for Single-View  Aerial-Ground Re-Identification | [论文](https://arxiv.org/abs/2604.26520) · [代码](https://github.com/TurtleSmoke/3D-LENS)                                                                       |
 | **CVPR 2026**       | ViSA      | View-Aware Semantic Alignment for Aerial-Ground Person Re-Identification                                          | [论文](https://arxiv.org/abs/2605.18192)                                                                                                                        |
@@ -203,6 +203,16 @@ AG-ReID 旨在跨 **空中视角** 与 **地面视角** 匹配同一目标，主
 如果我们的工作或本仓库对你的研究有帮助，欢迎引用：
 
 ```bibtex
+@misc{yang2026hihr,
+  title         = {HiHR: Hierarchical Hyperbolic Representation for Aerial-Ground Person Re-Identification},
+  author        = {Qiwei Yang and Pingping Zhang},
+  year          = {2026},
+  eprint        = {2607.09186},
+  archiveprefix = {arXiv},
+  primaryclass  = {cs.CV},
+  url           = {https://arxiv.org/abs/2607.09186}
+}
+
 @article{yang2026sas,
   title={SAS-VPReID: A Scale-Adaptive Framework with Shape Priors for Video-based Person Re-Identification at Extreme Far Distances},
   author={Yang, Qiwei and Zhang, Pingping and Wang, Yuhao and Gong, Zijing},
